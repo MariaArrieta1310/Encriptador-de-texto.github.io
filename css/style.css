@@ -29,7 +29,7 @@
 
 * {
   margin: 0;
-  padding: 1;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
 }
@@ -78,7 +78,7 @@ header {
   border: none;
   background: var(--bg);
   font-size: 10rem;
-  padding: 1.6rem;
+  padding: 5px;
   resize: none;
   overflow: auto;
   margin-top: 1.6rem;
@@ -112,18 +112,18 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1.6rem;
-  padding-left: 40px;
 }
 
 .primary-button {
   background-color: var(--light-blue-300);
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   border: 0.1rem solid var(--light-blue-300);
   color: var(--gray-500);
-  width: 80%;
+  width: 90%;
   cursor: pointer;
   font-size: 1.6rem;
-  height: 5rem;
+  height: 8rem;
+  position: relative;
 }
 
 .primary-button:hover {
@@ -228,7 +228,7 @@ footer {
 }
 
 footer #creatorName {
-  color: var(--gray-500);
+  color: var(black);
   font-size: 2rem;
   font-weight: bold;
 }
@@ -265,7 +265,7 @@ footer #social-medias ul li a {
   }
 
   .container #entradaTexto {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     padding: 3rem;
   }
 
@@ -380,5 +380,6 @@ footer #social-medias ul li a {
   footer {
     font-size: 2rem;
     height: 10%;
+    paddin-top: 10px;
   }
 }
